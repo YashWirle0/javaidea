@@ -18,6 +18,10 @@ public class ArraysExample {
         Arrays.sort(marks);
         System.out.println(marks[0]);
 
+        //2d array
+        int[] unittest = {97, 98, 99};
 
+        int [][] finalmarks = {{91, 99, 92},{89, 87, 88}};
+        System.out.println(finalmarks[1][2]);
     }
 }
