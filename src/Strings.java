@@ -24,5 +24,8 @@ public class Strings {
         String name7 = name6.replace('a','e');
         System.out.println(name7);
 
+        //Substring
+        String name8 = "Yash and sai";
+        System.out.printf(name8.substring(0, 4));
     }
 }
