@@ -1,4 +1,5 @@
-public class Arrays {
+import java.util.Arrays;
+public class ArraysExample {
     public static void main(String[] args) {
         int age = 20;
         int os = 95;
@@ -10,6 +11,13 @@ public class Arrays {
         marks[1] = 90;
         marks[2] = 90;
         System.out.println(marks[0]);
+
+        //sort
+        //before sorting
+        System.out.println(marks[0]);
+        Arrays.sort(marks);
+        System.out.println(marks[0]);
+
 
     }
 }
